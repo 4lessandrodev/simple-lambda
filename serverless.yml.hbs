@@ -1,0 +1,16 @@
+service: lambda-{{__TEMPLATE__CLASS__NAME__}}
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  main:
+    handler: handler.main
+    events:
+      - httpApi:
+          path: /
+          method: get
+plugins:
+  - serverless-plugin-typescript
