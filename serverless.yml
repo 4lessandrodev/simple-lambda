@@ -1,4 +1,4 @@
-service: lambda-{{__TEMPLATE__CLASS__NAME__}}
+service: lambda-sample
 frameworkVersion: '3'
 
 provider:
