@@ -3,7 +3,7 @@
     "serverless": "^3.39.0",
     "@types/aws-lambda": "^8.10.138",
     "serverless-plugin-typescript": "^2.1.4",
-    "typescript": "^5.4.5"
+    "typescript": "^5.5.2"
   },
   "scripts": {
     "deploy": "serverless deploy",
